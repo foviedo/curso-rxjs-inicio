@@ -11,7 +11,7 @@ const observer: Observer<any> = {
 };
 
 
-//const source$ = from( fetch('https://api.github.com/users/foviedo') );
+const source$ = from( fetch('https://api.github.com/users/foviedo') );
 
 /*source$.subscribe( async(resp) => { //lo hago async para poder usar await
     console.log(resp)
